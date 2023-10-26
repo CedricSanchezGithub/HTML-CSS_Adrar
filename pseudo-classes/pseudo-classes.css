@@ -14,9 +14,17 @@
 h1 {
   color: blue;
   transition: 0.2s;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+
+
 }
+
 h1:hover {
   color: green;
+  letter-spacing: 1rem;
+
 }
 p {
   background-color: rgba(128, 128, 128, 0.164);
