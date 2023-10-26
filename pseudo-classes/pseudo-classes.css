@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.container-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: blue;
+  transition: 0.2s;
+}
+h1:hover {
+  color: green;
+}
+p {
+  background-color: rgba(128, 128, 128, 0.164);
+  transition: 0.2s;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+p:active {
+  background-color: rgb(128, 128, 128);
+}
+a {
+  color: orange;
+}
+a:visited {
+  color: grey;
+}
+img {
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 13px 27px -5px #32325d40, 0 8px 16px -8px #0000004d,
+    0 -6px 16px -6px #00000008;
+    transition: 0.5s;
+}
+/* pas ouf le display none ici  */
+img:hover {
+  transform: translatey(50px);
+}
