@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Sometype Mono', monospace;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.formulaire-countainer{
+    display: flex;
+    border: solid 2px black;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px black;
+    margin-top: 25vh;
+}
+.formulaire {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+  padding: 30px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgba(255, 0, 0, 0.507);
+
+}
+input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 128, 0, 0.507);
+  border-radius: 5px;
+}
