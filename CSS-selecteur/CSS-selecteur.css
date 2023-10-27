@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+h1 {
+  color: red;
+  margin: 20px;
+}
+img {
+  width: 200px;
+}
+#contenu p {
+  margin: 20px 0;
+}
+#contenu {
+  background: rgba(128, 128, 128, 0.158);
+  margin: 20px;
+}
+#contenu + div {
+  text-align: right;
+  margin: 20px;
+}
