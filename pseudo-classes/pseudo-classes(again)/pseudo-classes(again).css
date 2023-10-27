@@ -1,34 +1,35 @@
 * {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
 
-  h1{
-    background: chocolate;
-    color: wheat;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+h1 {
+  background: chocolate;
+  color: wheat;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container-tiramisu {
-    display: flex;
-    background: wheat;
-    flex-direction: column;
-    text-align: center;
-    border: 2px solid chocolate;
-    line-height: 2rem;
-    width: 80%;
-    margin: 25vh auto;
+  display: flex;
+  background: wheat;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid chocolate;
+  line-height: 2rem;
+  width: 80%;
+  margin: 25vh auto;
 }
-ul{
-    margin: 10px;
+ul {
+  margin: 10px;
 }
-li:nth-child(even){
-    color: rgb(0, 44, 240);
+li:nth-child(even) {
+  color: blue;
 }
-li:hover:nth-child(even){
-    color: rgb(0, 0, 0);
+
+li:hover:nth-child(even) {
+  color: black;
 }
