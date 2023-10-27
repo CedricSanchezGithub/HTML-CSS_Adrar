@@ -29,6 +29,6 @@ ul{
 li:nth-child(even){
     color: rgb(0, 44, 240);
 }
-li:nth-child(even):hover{
+li:hover:nth-child(even){
     color: rgb(0, 0, 0);
 }
