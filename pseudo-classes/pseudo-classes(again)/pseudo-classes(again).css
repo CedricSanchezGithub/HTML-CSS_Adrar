@@ -30,6 +30,6 @@ li:nth-child(even) {
   color: blue;
 }
 
-li:hover:nth-child(even) {
+li:nth-child(even):hover {
   color: black;
 }
