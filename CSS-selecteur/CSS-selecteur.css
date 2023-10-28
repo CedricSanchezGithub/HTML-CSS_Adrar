@@ -9,14 +9,31 @@ h1 {
   margin: 20px;
 }
 img {
+  border-radius: 20px;
   width: 200px;
+  margin: 20px;
+  box-shadow: 1px 1px 12px 3px rgba(0, 0, 0, 0.71);
 }
 #contenu p {
-  margin: 20px 0;
+  padding: 20px;
+  
+}
+a{
+  padding: 20px;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+a:hover{
+  color: blue;
 }
 #contenu {
   background: rgba(128, 128, 128, 0.158);
   margin: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.71);
+
 }
 #contenu + div {
   text-align: right;
