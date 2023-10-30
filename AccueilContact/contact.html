@@ -8,13 +8,18 @@
   </head>
   <body>
     <header>
-      <div class="banniere">
-        <h1>CONTACT</h1>
-      </div>
-    </header>
+        <div class="banniere"><h1>ACCUEIL</h1></div>
+  
+        <ul>
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="#mesArticles">Blog</a></li>
+          <li><a href="rien">Galerie</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </header>
     <form action="" method="post">
       <fieldset>
-        <legend>Contactez-nous via ce formulaire:</legend>
+        <legend>Contactez-nous via ce formulaire :</legend>
 
         <div>
           <label for="nom"></label
@@ -25,11 +30,12 @@
             placeholder="Nom"
             maxlength="20"
             minlength="2"
+            required
           />
         </div>
         <div>
           <label for="email"></label>
-          <input id="email" type="email" placeholder="E-mail" />
+          <input id="email" type="email" placeholder="E-mail" required/>
         </div>
         <div>
           <label for="message"></label>
@@ -38,7 +44,7 @@
           >
         </div>
         <div class="copie">
-          <label for="copie">Copie:</label>
+          <label for="copie">Envoyer une copie par email :</label>
           <br />
           <input
             id="copie"
@@ -46,7 +52,6 @@
           />
         </div>
         <div class="button">
-
             <label for="submit"></label>
             <input id="submit" type="button" value="Submit"/>
             <label  for="reset"></label>
