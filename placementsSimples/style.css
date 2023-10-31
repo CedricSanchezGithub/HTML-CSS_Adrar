@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+form {
+  width: 400px;
+  height: 250px;
+  border: 2px solid black;
+  background: gainsboro;
+  margin: 0 auto;
+}
+legend {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
+label,
+input[type="checkbox"] {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+input[type="text"]{
+    margin: 10px;
+}
+label[for="remember"]{
+margin: 0;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="button"]{
+    margin: 5px;
+    padding: 0 20px;
+    
+}
+input[type="button"]:hover{
+    color: gainsboro;
+    background-color: #111111;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
