@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
