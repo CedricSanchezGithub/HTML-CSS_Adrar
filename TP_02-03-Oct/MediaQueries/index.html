@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document de base</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tout">
+      <h1>Utilisation des médias queries</h1>
+      <p>Règle(s) appliquée(s) : <br /></p>
+      <div class="media">
+        @media (width < 640px) *<br />
+        @media (width < 800px) *<br />
+        @media screen and (max-width: 1280px) and (min-width: 1024px) <br />
+        @media (width < 480px)<br />
+        @media screen and (orientation: landscape) <br />
+        @media screen and (orientation: portrait)
+      </div>
+      <i
+        >* Ces Media Queries sont plus modernes, je me suis donc permis de les
+        utiliser.</i
+      >
+      <div class="queries-container">
+        <div class="queries" id="premier">
+          La page est affichée avec une largeur < 640px
+        </div>
+        <div class="queries" id="deuxieme">
+          La page est affichée avec une largeur > 800px
+        </div>
+        <div class="queries" id="troisieme">
+          La page est affichée avec une largeur > 1024px et < 1280px
+        </div>
+        <div class="queries" id="quatrieme">
+          La page est affichée sur un périphérique de maximum 480px (ex: iPhone)
+        </div>
+        <div class="queries" id="portrait">
+          La page est affichée en mode portrait
+        </div>
+        <div class="queries" id="paysage">
+          La page est affiché en mode paysage
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- Note: 
+J'utilise un template histoire de ne pas me retaper le HTML/CSS à chaque fois. Donc, certaines lignes ne servent parfois à rien. -->
