@@ -10,9 +10,10 @@
   margin: 40px;
   display: flex;
 }
-
-.full-page {
-  height: 100vh;
+@media (width < 890px) {
+  .message-list .nes-bcrikko {
+    display: none;
+  }
 }
 
 .main-card {
@@ -23,7 +24,12 @@
 .main-card-with-carmander {
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+@media (width < 750px) {
+  .main-card-with-carmander {
+    flex-direction: column;
+  }
 }
 
 .second-card {
@@ -35,15 +41,31 @@
   align-items: center;
   padding-bottom: 20px;
 }
+@media (width < 750px) {
+  .second-card-with-bulbasaur {
+    flex-direction: column-reverse;
+  }
+}
 
 .nes-bulbasaur {
   margin-left: 20px;
   transform: scaleX(-1);
 }
+@media (width < 750px) {
+  .nes-bulbasaur {
+    margin-top: 50px;
+  }
+}
 
 .third-class-with-squirtle {
   display: flex;
   align-items: center;
+}
+@media (width < 750px) {
+  .third-class-with-squirtle {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 }
 
 .nes-squirtle {
