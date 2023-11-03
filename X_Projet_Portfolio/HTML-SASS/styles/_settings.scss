@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "overlock";
+  src: url(../fonts/overlock/Overlock-Bold.ttf);
+}
+
+@font-face {
+  font-family: "raster";
+  src: url(../fonts/raster/raster.ttf);
+}
+
+$overlock: "overlock", sans-serif;
+$raster: raster, sans-serif;
+$color1: #a0a4ef;
+$cardcolor: #050505;
+$iconecolor: #c7c7c7;
+$textcolor: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+@mixin border {
+  border: 1px solid #a0a4ef;
+  box-shadow: 0px 0px 14px rgba(160, 164, 239, 0.5);
+  border-radius: 8px;
+}
+
+@mixin CenterChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

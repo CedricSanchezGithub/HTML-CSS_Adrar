@@ -1,0 +1,7 @@
+@use "settings" as var;
+
+.card{
+    background: var.$cardcolor;
+    color: var.$color1;
+    @include var.border;
+}
