@@ -1,6 +1,6 @@
 @font-face {
   font-family: "overlock";
-  src: url(../fonts/overlock/Overlock-Bold.ttf);
+  src: url(../fonts/overlock/overlock.ttf);
 }
 
 @font-face {
@@ -8,7 +8,7 @@
   src: url(../fonts/raster/raster.ttf);
 }
 
-$overlock: "overlock", sans-serif;
+$overlock: overlock, sans-serif;
 $raster: raster, sans-serif;
 $color1: #a0a4ef;
 $cardcolor: #050505;
@@ -21,10 +21,31 @@ $textcolor: #ffffff;
   box-sizing: border-box;
   list-style-type: none;
 }
+
 body {
   background: #1e1e1e;
+  font-family: $overlock;
 }
+#all-card{
+  max-width: 1300px;
+  margin: 0 auto;
+  @media (width < 1060px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+}
+#little-cards{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  @media (width < 1060px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
+}
 @mixin border {
   border: 1px solid #a0a4ef;
   box-shadow: 0px 0px 14px rgba(160, 164, 239, 0.5);

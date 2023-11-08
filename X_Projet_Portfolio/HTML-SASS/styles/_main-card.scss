@@ -1,9 +1,46 @@
-.main-card{
-    height: 60vh;
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    h1{
-        font-size: 1rem;
+@use "./settings" as var;
+
+.main-card {
+  position: relative;
+  height: 60vh;
+  padding: 20px;
+  width: 80%;
+  margin: 50px auto;
+  @media (width < 1060px) {
+    width: 500px;
+    height: 250px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 2rem;
+    span {
+      display: block;
+      font-family: $raster;
+      color: bisque;
+      margin-top: 10px;
     }
+  }
+  img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    @include border;
+    border-radius: 1000px;
+    top: 100px;
+    right: 100px;
+    @media (width < 1060px) {
+      width: 100px;
+      height: 100px;
+      top: 20px;
+    }
+    @media (width < 650px) {
+      display: flex;
+    }
+  }
 }
