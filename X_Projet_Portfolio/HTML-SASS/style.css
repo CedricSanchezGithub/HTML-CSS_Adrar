@@ -333,7 +333,7 @@ body {
   top: -100px;
   right: 200px;
 }
-@media (width < 1125px) {
+@media (width < 1060px) {
   .third-card {
     position: static;
   }
