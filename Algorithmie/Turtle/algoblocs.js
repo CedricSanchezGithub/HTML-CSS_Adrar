@@ -396,21 +396,4 @@ shiftColor(0.25); // décaler la couleur de 25% à chaque occurence
 //   }
 //   forward(100 - fractal);
 //   left(45);
-// }
-
-
-// Initialisation
-setPos(200, 200);
-setLineWidth(50);
-faceRight();
-
-changeColor(color.aqua);
-arcRight(50,360);
-
-faceRight();
-up();
-forward(100);
-down();
-arcRight(50,360);
-
-
+//
